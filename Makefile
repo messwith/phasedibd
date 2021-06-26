@@ -1,6 +1,6 @@
 
 all:
-	pip install cython --user
+	pip install cython numpy
 	python setup.py build_ext --inplace
 
 test:
